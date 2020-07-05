@@ -9,7 +9,7 @@
 import XCTest
 
 // MARK: - ParticleContext tests
-@testable import ForceGraph
+@testable import Force
 class ParticleContextTests: XCTestCase {
 
     // MARK: - Properties

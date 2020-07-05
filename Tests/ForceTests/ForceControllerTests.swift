@@ -10,7 +10,7 @@ import XCTest
 import SwiftUI
 
 // MARK: - ForceController tests
-@testable import ForceGraph
+@testable import Force
 class ForceControllerTests: XCTestCase {
 
     // MARK: - Properties

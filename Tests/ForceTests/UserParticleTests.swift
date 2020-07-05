@@ -10,7 +10,7 @@ import XCTest
 import CoreGraphics
 
 // MARK: - UserParticle tests
-@testable import ForceGraph
+@testable import Force
 class UserParticleTests: XCTestCase {
     
     // MARK: - Properties
