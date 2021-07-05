@@ -70,7 +70,8 @@ public class ForceController<T : Particle>: ObservableObject {
             return
         }
         //set the center to the proxy's center
-        self.center.center = CGPoint(x: proxy.size.width/2, y: proxy.size.height/2)
+        let frame = proxy.frame(in: .global)
+        self.center.center = CGPoint(x: frame.midX, y: frame.midY)
         self.simulation.start()
     }
     ///Performs the default Force behavior for `View`.onDisappear()
